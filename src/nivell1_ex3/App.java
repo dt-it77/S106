@@ -13,5 +13,9 @@ public class App {
         System.out.println("Generic Mix");
         GenericMethods<Object> genericMix = new GenericMethods<>();
         genericMix.f(1, 2.5, "3");
+
+        System.out.println("Nomes dos parametres");
+        GenericMethods<Object> nome2Parametres = new GenericMethods<>();
+        nome2Parametres.f(2, "Parametres");
     }
 }
